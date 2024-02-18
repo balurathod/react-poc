@@ -6,6 +6,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "./Main.css";
 import NavBar from "./components/Navbar/Navbar";
+import Parent from "./components/ParentChild/Parent";
+import Counter from "./components/Counter/Counter";
 // import AutoSearch from "./components/autoSearch/AutoSearch";
 // import TextForm from "./components/TextForm/TextForm";
 
@@ -25,6 +27,8 @@ export default function App() {
     </Router>
       {/* <AutoSearch />
       <TextForm />  */}
+      <Parent />
+      <Counter />
     </div>
     );
   }
