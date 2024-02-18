@@ -3,14 +3,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    font-size: 22px;
+    font-size: 15px;
   }
   .search-header {
     display: flex;
   }
   .search-text {
     margin-right: 10px;
-    font-size: 22px;
+    font-size: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,17 +19,10 @@
     height: 25px;
   }
   #search-box[placeholder] {
-    line-height: 25px;
-    font-size: 25px;
+    line-height: 15px;
+    font-size: 15px;
   }
   #item-list {
     min-height: 20px;
   }
   
-  .dropdown {
-    background-color: white;
-    flex-direction: column;
-    border: 1px solid gray;
-    width: fit-content;
-    align-items: center;
-  }

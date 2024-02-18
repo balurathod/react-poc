@@ -14,6 +14,15 @@ const NavBar = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" /> 
                 <Navbar.Collapse id="basic-navbar-nav"> 
                     <Nav className="me-auto">  
+                        <NavDropdown title="Common Components"
+                                        id="collasible-nav-dropdown1"> 
+                            <NavDropdown.Item href="/counter"> Counter </NavDropdown.Item> 
+                            <NavDropdown.Item href="/textForm"> Sample Form </NavDropdown.Item>
+                            <NavDropdown.Item href="/parentChild"> ParentChild </NavDropdown.Item> 
+                            <NavDropdown.Item href="/todo"> ToDo List </NavDropdown.Item> 
+                            <NavDropdown.Item href="/autoSearch"> Auto Search </NavDropdown.Item> 
+                            <NavDropdown.Item href="/employeeDetail"> Emplyee Details </NavDropdown.Item> 
+                        </NavDropdown> 
                         <NavDropdown title="Web Technology"
                                         id="collasible-nav-dropdown1"> 
                             <NavDropdown.Item href="/react"> React </NavDropdown.Item>                                  
